@@ -6,9 +6,9 @@ namespace myApp
     {
         static void Main(string[] args)
         {
-            int x;
-            x = 100;
-            Console.WriteLine($"Testing ....!{x}");
+            Console.WriteLine("Hello world");
+            chap02 ch = new chap02();
+            ch.example3();
         }
     }
 }

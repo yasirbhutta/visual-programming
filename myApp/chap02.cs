@@ -15,6 +15,7 @@ namespace myApp {
         // This program demonstrates variables.  
         //
         public void example3 () {
+            
             int x; // this declares a variable  
             int y; // this declares another variable  
 
@@ -29,5 +30,8 @@ namespace myApp {
 
         }
 
+        private static int NewMethod (int x) {
+            return x / 2;
+        }
     }
 }

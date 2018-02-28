@@ -7,8 +7,9 @@ namespace myApp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello world");
-            chap02 ch = new chap02();
-            ch.example3();
+
+            //chap02 ch = new chap02();
+            //ch.example3();
         }
     }
 }

@@ -88,6 +88,7 @@ namespace myApp {
         // Demonstrate a block of code. 
         //
         public void BlockDemo () {
+
             int i, j, d;
             i = 5;
             j = 10;
@@ -123,6 +124,18 @@ namespace myApp {
 
         }
         //
+        // Demonstrate ReadLine()
+        //
+        public void ReadDemo () {
+            int a;
+            Console.Write ("Please enter numeric value = ");
+
+            a = Convert.ToInt32 (Console.ReadLine ());
+
+            Console.WriteLine ("a = " + a);
+
+        }
+        //
         // Demonstrate an @ identifier. 
         //
         public void IdTest () {
@@ -130,5 +143,5 @@ namespace myApp {
                 for (@if = 0; @if < 10; @if++) 
                 Console.WriteLine (" @if is " + @if); 
             }
-        }
-    }
+        }   // end class block
+    }   // end namespace block

@@ -664,28 +664,30 @@
     ]
   },
   "packageFolders": {
-    "/home/yasir/.nuget/packages/": {},
-    "/usr/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\yasir\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/yasir/Documents/git/visual-programming/myApp/myApp.csproj",
+      "projectUniqueName": "F:\\git\\visual-programming\\myApp\\myApp.csproj",
       "projectName": "myApp",
-      "projectPath": "/home/yasir/Documents/git/visual-programming/myApp/myApp.csproj",
-      "packagesPath": "/home/yasir/.nuget/packages/",
-      "outputPath": "/home/yasir/Documents/git/visual-programming/myApp/obj/",
+      "projectPath": "F:\\git\\visual-programming\\myApp\\myApp.csproj",
+      "packagesPath": "C:\\Users\\yasir\\.nuget\\packages\\",
+      "outputPath": "F:\\git\\visual-programming\\myApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/home/yasir/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\yasir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

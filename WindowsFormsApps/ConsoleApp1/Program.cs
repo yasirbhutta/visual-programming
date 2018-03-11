@@ -10,9 +10,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            /* Console.WriteLine("Hello World! ");
-             Console.Write("Press any key to continue...");
-             Console.ReadKey(true); */
+            //Console.WriteLine("Hello World! ");
+            //Console.Write("Press any key to continue...");
+            //Console.ReadKey(true);
             NameDemo();
             
 
@@ -22,6 +22,7 @@ namespace ConsoleApp1
             //
             // Enhancing the Hello World application
             //
+
             Console.WriteLine("\nWhat is your name? ");
             var name = Console.ReadLine();
             var date = DateTime.Now;

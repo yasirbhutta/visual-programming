@@ -20,6 +20,9 @@ namespace GettingStarted
         private void button1_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Hello World!");
+            TextBox myText = new TextBox();
+            myText.Location = new Point(25, 25);
+            this.Controls.Add(myText);
         }
     }
 }

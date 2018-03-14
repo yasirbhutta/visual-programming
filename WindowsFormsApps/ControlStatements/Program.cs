@@ -134,6 +134,36 @@ namespace ControlStatements
                         break;
                 }
         }
+        static void WhileDemo()
+        {
+            int counter = 0;
+            while (counter < 10)
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+                counter++;
+            }
+        }
+        // do .. while
+        static void DoWhileDemo()
+        {
+            int counter = 0;
+            do
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+                counter++;
+            } while (counter < 10);
+
+        }
+        //
+        // for loop
+        //
+        static void ForDemo()
+        {
+            for (int counter = 0; counter < 10; counter++)
+            {
+                Console.WriteLine($"Hello World! The counter is {counter}");
+            }
+        }
     }
 }
 

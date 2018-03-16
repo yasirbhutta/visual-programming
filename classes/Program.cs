@@ -1,14 +1,25 @@
-using System;
+﻿using System;
 
-namespace classes
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            StructDemo();
+namespace classes {
+    class Program {
+        static void Main (string[] args) {
+            
+            // Call the constructor that has no parameters.
+        Person person1 = new Person();
+        Console.WriteLine(person1.name);
+
+        person1.SetName("Muhammad Ahmad");
+        Console.WriteLine(person1.name);
+
+        // Call the constructor that has one parameter.
+        Person person2 = new Person("Muhammad Hamza");
+        Console.WriteLine(person2.name);
+
+        // Keep the console window open in debug mode.
+        Console.WriteLine("Press any key to exit.");
+        Console.ReadKey();
             //
-            Console.ReadKey();
+        
         }
         //
         // struct

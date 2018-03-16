@@ -6,7 +6,9 @@ namespace classes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            StructDemo();
+            //
+            Console.ReadKey();
         }
         //
         // struct

@@ -5,8 +5,14 @@
 using System.Collections.Generic;
 namespace collections {
     class Program {
+        //
+        // enum
+        //
+        enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
+
+        
         static void Main (string[] args) {
-            EnumDemo ();
+            ListDemo2 ();
             Console.ReadKey (true);
         }
         //
@@ -31,43 +37,43 @@ namespace collections {
         // Modify list contents
         //
         static void ListDemo2 () {
-            var names = new List<string> { "zeshan", "ali", "ahmed" };
+            var names = new List<string> ();
+
+            //
+            Console.WriteLine ("***** New List ******");
+            names.Add ("zeshan");
+            names.Add ("Muhammad Umer");
+            names.Add ("nasir");
+
             foreach (var name in names) {
                 Console.WriteLine ($"Hello {name.ToUpper()}!");
             }
-            //
-            //
-            //
-            Console.WriteLine ("***** New List ******");
-            names.Add ("Muhammad Umer");
-            names.Add ("nasir");
+            Console.WriteLine ("***** New list after removing item ******");
             names.Remove ("zeshan");
             foreach (var name in names) {
                 Console.WriteLine ($"Hello {name.ToUpper()}!");
             }
         }
+
         
-        //
-        // enum
-        //
-        enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
+
         static void EnumDemo () {
- int x = (int) Day.Sun;
- int y = (int) Day.Fri;
- Console.WriteLine ("Sun = {0}", x);
- Console.WriteLine ("Fri = {0}", y);
- //
- //
- Day d;
- d = Day.Sun;
- switch (d) {
- case Day.Sun:
- Console.WriteLine ("Holiday ....");
- break;
- default:
- Console.WriteLine ("Weekday ....");
- break;
-            }
+        int x = (int) Day.Sun;
+        int y = (int) Day.Fri;
+        Console.WriteLine ("Sun = {0}", x);
+        Console.WriteLine ("Fri = {0}", y);
+        //
+        //
+        Day d;
+        d = Day.Sun;
+        switch (d) {
+        case Day.Sun:
+        Console.WriteLine ("Holiday ....");
+        break;
+        default:
+        Console.WriteLine ("Weekday ....");
+        break;
+                    }
         }
     }
 }

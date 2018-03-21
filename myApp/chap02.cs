@@ -127,6 +127,7 @@ namespace myApp {
         // Demonstrate ReadLine()
         //
         public void ReadDemo () {
+            
             int a;
             Console.Write ("Please enter numeric value = ");
 

@@ -12,7 +12,7 @@ namespace collections {
 
         
         static void Main (string[] args) {
-            ListDemo2 ();
+            ListDemo1();
             Console.ReadKey (true);
         }
         //

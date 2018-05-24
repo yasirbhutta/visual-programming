@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{6F4C2B68-EFDE-4ABE-AAC4-79228BCFC439}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MonthCalendar</RootNamespace>
-    <AssemblyName>MonthCalendar</AssemblyName>
+    <RootNamespace>DateTime</RootNamespace>
+    <AssemblyName>DateTime</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -73,6 +73,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsEvents
+namespace MonthCalendar
 {
     static class Program
     {
@@ -16,7 +16,12 @@ namespace WindowsFormsEvents
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            //
+            //
+            //Application.Run(new MonthCalendar());
+            //
+            //
+            Application.Run(new FrmDateTimePicker());
         }
     }
 }

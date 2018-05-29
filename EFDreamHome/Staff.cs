@@ -17,5 +17,6 @@ namespace EFDreamHome
         public int Id { get; set; }
         public string fName { get; set; }
         public string lName { get; set; }
+        public string position { get; set; }
     }
 }

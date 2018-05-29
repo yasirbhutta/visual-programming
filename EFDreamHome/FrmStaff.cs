@@ -44,6 +44,7 @@ namespace EFDreamHome
             // Add some data
             ThisStaff.fName = txtFirstName.Text;
             ThisStaff.lName = txtLastName.Text;
+            ThisStaff.position = "Manager";
 
             // Add a new record.
             ThisContainer.Staffs.Add(ThisStaff);

@@ -16,7 +16,8 @@ namespace EFDreamHome
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmDataGrid());
+            Application.Run(new FrmStaff());
+            //Application.Run(new FrmDataGrid());
         }
     }
 }

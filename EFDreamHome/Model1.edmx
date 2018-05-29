@@ -15,6 +15,7 @@
     <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="fName" Type="nvarchar(max)" Nullable="false" />
     <Property Name="lName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="position" Type="nvarchar(max)" Nullable="false" />
   </EntityType>
 </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -30,6 +31,7 @@
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="fName" Type="String" Nullable="false" />
           <Property Name="lName" Type="String" Nullable="false" />
+          <Property Name="position" Type="String" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -43,6 +45,7 @@
           <ScalarProperty Name="Id" ColumnName="Id" />
           <ScalarProperty Name="fName" ColumnName="fName" />
           <ScalarProperty Name="lName" ColumnName="lName" />
+          <ScalarProperty Name="position" ColumnName="position" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

@@ -61,21 +61,21 @@
             this.txtFirstName.Location = new System.Drawing.Point(161, 113);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(159, 20);
-            this.txtFirstName.TabIndex = 2;
+            this.txtFirstName.TabIndex = 0;
             // 
             // txtLastName
             // 
             this.txtLastName.Location = new System.Drawing.Point(161, 152);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(159, 20);
-            this.txtLastName.TabIndex = 3;
+            this.txtLastName.TabIndex = 1;
             // 
             // btnCount
             // 
             this.btnCount.Location = new System.Drawing.Point(534, 112);
             this.btnCount.Name = "btnCount";
             this.btnCount.Size = new System.Drawing.Size(75, 23);
-            this.btnCount.TabIndex = 4;
+            this.btnCount.TabIndex = 2;
             this.btnCount.Text = "Count";
             this.btnCount.UseVisualStyleBackColor = true;
             this.btnCount.Click += new System.EventHandler(this.btnCount_Click);
@@ -95,7 +95,7 @@
             this.btnRemove.Location = new System.Drawing.Point(534, 170);
             this.btnRemove.Name = "btnRemove";
             this.btnRemove.Size = new System.Drawing.Size(75, 23);
-            this.btnRemove.TabIndex = 6;
+            this.btnRemove.TabIndex = 4;
             this.btnRemove.Text = "Remove";
             this.btnRemove.UseVisualStyleBackColor = true;
             this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
@@ -105,7 +105,7 @@
             this.btnAdd.Location = new System.Drawing.Point(534, 141);
             this.btnAdd.Name = "btnAdd";
             this.btnAdd.Size = new System.Drawing.Size(75, 23);
-            this.btnAdd.TabIndex = 7;
+            this.btnAdd.TabIndex = 3;
             this.btnAdd.Text = "Add";
             this.btnAdd.UseVisualStyleBackColor = true;
             this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);

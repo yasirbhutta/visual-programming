@@ -6,11 +6,11 @@ namespace myApp
     {
         static void Main(string[] args)
         {
-            //
-            //Console.WriteLine("Hello world");
-            //
+            
+            Console.WriteLine("Hello world");
+            
             chap02 ch = new chap02();
-            ch.example1();
+            ch.example2();
         }
     }  
 }

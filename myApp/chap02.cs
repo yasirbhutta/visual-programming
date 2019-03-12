@@ -8,8 +8,10 @@ namespace myApp {
 
         }
         public void example2 () {
-            // System.Console.WriteLine("A simple C# program."); 
 
+/* 
+             System.Console.WriteLine("A simple C# program."); 
+*/
         }
         //
         // This program demonstrates variables.  

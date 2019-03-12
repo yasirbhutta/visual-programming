@@ -16,7 +16,7 @@ namespace WindowsFormsEvents
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormAddTextBox());
+            Application.Run(new Form1());
         }
     }
 }

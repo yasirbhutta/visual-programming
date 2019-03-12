@@ -10,7 +10,7 @@ namespace myApp
             //Console.WriteLine("Hello world");
             //
             chap02 ch = new chap02();
-            ch.ReadDemo();
+            ch.example1();
         }
     }  
 }

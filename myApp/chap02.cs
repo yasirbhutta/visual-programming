@@ -74,6 +74,16 @@ namespace myApp {
             if (c >= 0) Console.WriteLine ("c is non-negative");
             if (c < 0) Console.WriteLine ("c is negative");
         }
+
+        public void example6()
+        {
+            var str = "1"; 
+            var num = 0;
+
+            Console.WriteLine(str);
+            Console.WriteLine(num);
+
+        }
         //
         //  Demonstrate the for loop.
         //
@@ -135,7 +145,7 @@ namespace myApp {
 
             a = Convert.ToInt32 (Console.ReadLine ());
 
-            Console.WriteLine ("a = " + a);
+            Console.WriteLine ("a = " + a );
 
         }
         //

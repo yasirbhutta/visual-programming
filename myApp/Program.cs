@@ -10,7 +10,13 @@ namespace myApp
             Console.WriteLine("Hello world");
             
             chap02 ch = new chap02();
-            ch.example2();
+            ch.ReadDemo();
+            
+        }
+
+        static void print()
+        {
+            Console.WriteLine("Ghazi University");
         }
     }  
 }

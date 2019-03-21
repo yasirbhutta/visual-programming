@@ -3,12 +3,14 @@
 namespace DataTypes {
     class Program {
         static void Main (string[] args) {
-            Console.WriteLine ("Hello World!");
+            //Console.WriteLine ("Hello World!");
             // FindRadius ();
             // Trigonometry ();
             //UseDecimal ();
             //BoolDemo ();
-            DisplayOptions();
+            //DisplayOptions ();
+            //StrDemo ();
+            verbatim();
         }
 
         static void FindRadius () {
@@ -63,6 +65,32 @@ namespace DataTypes {
             Console.WriteLine ("Value\tSquared\tCubed");
             for (i = 1; i < 10; i++)
                 Console.WriteLine ("{0}\t{1}\t{2}", i, i * i, i * i * i);
+
+            Console.WriteLine ("Here is 10/3: {0:#.##}", 10.0 / 3.0);
+        }
+        //
+        // Demonstrate escape sequences in strings.
+        //
+        static void StrDemo () {
+
+            //  \n escape sequence is used to generate a new line.
+            Console.WriteLine ("Line One\nLine Two\nLine Three");
+            Console.WriteLine ("One\tTwo\tThree");
+            Console.WriteLine ("Four\tFive\tSix");
+            // Embed quotes.
+            Console.WriteLine ("\"Why?\", he asked.");
+        }
+
+        static void verbatim () {
+            Console.WriteLine (@"This is a verbatim
+                                string literal
+                                that spans several lines.
+                                ");
+            Console.WriteLine (@"Here is some tabbed output:
+                        1   2   3   4
+                        5   6   7   8
+                        ");
+            Console.WriteLine (@"Programmers say, ""I like C#.""");
         }
 
     }

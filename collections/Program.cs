@@ -10,11 +10,14 @@ namespace collections {
         //
         enum Day { Sun, Mon, Tue, Wed, Thu, Fri, Sat };
 
-        
-        static void Main (string[] args) {
-            ArrayDemo();
-            Console.ReadKey (true);
+ static void Main (string[] args) {
+ //EnumDemo();
+ //ArrayDemo();
+ ListDemo1 ();
+ //ListDemo2();
+ Console.ReadKey (true);
         }
+
         //
         // Arrays
         //
@@ -27,16 +30,38 @@ namespace collections {
                 Console.WriteLine ($"a[{i}] = {a[i]}");
             }
         }
+
         static void ListDemo1 () {
+
+            List<int> iList = new List<int> ();
+            iList.Add (2);
+            iList.Add (4);
+            iList.Add (5);
+            foreach (int a in iList)
+
+                Console.WriteLine (a);
+        }
+        static void ListDemo2 () {
+            List<string> sList = new List<string> ();
+            sList.Add ("red");
+            sList.Add ("green");
+            sList.Add ("blue");
+            foreach (string str in sList)
+                Console.WriteLine (str);
+        }
+        static void ListDemo3 () {
             var names = new List<string> { "hamza", "ali", "ahmed" };
+
             foreach (var name in names) {
+
                 Console.WriteLine ($"Hello {name.ToUpper()}!");
             }
         }
+
         //
         // Modify list contents
         //
-        static void ListDemo2 () {
+        static void ListDemo4 () {
             var names = new List<string> ();
 
             //
@@ -55,25 +80,23 @@ namespace collections {
             }
         }
 
-        
-
         static void EnumDemo () {
-        int x = (int) Day.Sun;
-        int y = (int) Day.Fri;
-        Console.WriteLine ("Sun = {0}", x);
-        Console.WriteLine ("Fri = {0}", y);
-        //
-        //
-        Day d;
-        d = Day.Sun;
-        switch (d) {
-        case Day.Sun:
-        Console.WriteLine ("Holiday ....");
-        break;
-        default:
-        Console.WriteLine ("Weekday ....");
-        break;
-                    }
+            int x = (int) Day.Sun;
+            int y = (int) Day.Fri;
+            Console.WriteLine ("Sun = {0}", x);
+            Console.WriteLine ("Fri = {0}", y);
+            //
+            //
+            Day d;
+            d = Day.Wed;
+            switch (d) {
+                case Day.Sun:
+                    Console.WriteLine ("Holiday ....");
+                    break;
+                default:
+                    Console.WriteLine ("Weekday ....");
+                    break;
+            }
         }
     }
 }

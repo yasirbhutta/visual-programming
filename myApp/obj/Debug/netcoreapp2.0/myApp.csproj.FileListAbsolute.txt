@@ -20,3 +20,13 @@ F:/git/visual-programming/myApp/obj/Debug/netcoreapp2.0/myApp.AssemblyInfo.cs
 F:/git/visual-programming/myApp/obj/Debug/netcoreapp2.0/myApp.dll
 F:/git/visual-programming/myApp/obj/Debug/netcoreapp2.0/myApp.pdb
 /home/yasir/Documents/git/visual-programming/myApp/obj/Debug/netcoreapp2.0/myApp.csprojResolveAssemblyReference.cache
+D:\git\visual-programming\myApp\bin\Debug\netcoreapp2.0\myApp.deps.json
+D:\git\visual-programming\myApp\bin\Debug\netcoreapp2.0\myApp.runtimeconfig.json
+D:\git\visual-programming\myApp\bin\Debug\netcoreapp2.0\myApp.runtimeconfig.dev.json
+D:\git\visual-programming\myApp\bin\Debug\netcoreapp2.0\myApp.dll
+D:\git\visual-programming\myApp\bin\Debug\netcoreapp2.0\myApp.pdb
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.csprojAssemblyReference.cache
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.AssemblyInfoInputs.cache
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.AssemblyInfo.cs
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.dll
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.pdb

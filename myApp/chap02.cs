@@ -104,14 +104,15 @@ namespace myApp {
             int i, j, d;
             i = 5;
             j = 10;
+            
 
             // The target of this if is a block. 
             if (i != 0) {
-                // int k = 5;
+                //int k = 5;
                 Console.WriteLine ("i does not equal zero");
                 d = j / i;
                 Console.WriteLine ("j / i is " + d);
-
+                //Console.WriteLine("K = " + k);
             }
             // error 'k' does not exist in current  
             // Console.WriteLine("k =" + k); 
@@ -141,8 +142,13 @@ namespace myApp {
         public void ReadDemo () {
             
             int a;
+            string name;
+            Console.Write("Enter your name = ");
+            name = Console.ReadLine();
+            Console.WriteLine("name = " + name);
+            //
             Console.Write ("Please enter numeric value = ");
-
+           
             a = Convert.ToInt32 (Console.ReadLine ());
 
             Console.WriteLine ("a = " + a );
@@ -152,9 +158,13 @@ namespace myApp {
         // Demonstrate an @ identifier. 
         //
         public void IdTest () {
-                int @if; // use if as an identifier 
+                int @if,@for; // use if as an identifier 
+                @for = 50;
                 for (@if = 0; @if < 10; @if++) 
                 Console.WriteLine (" @if is " + @if); 
+                Console.WriteLine(@for);
             }
         }   // end class block
+   
+   
     }   // end namespace block

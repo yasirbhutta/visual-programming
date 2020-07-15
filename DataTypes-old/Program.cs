@@ -1,18 +1,16 @@
 ﻿using System;
 
-namespace DataTypes
-{
-    class Program
-    {
+namespace DataTypes {
+    class Program {
         static void Main (string[] args) {
             //Console.WriteLine ("Hello World!");
             // FindRadius ();
-             //Trigonometry ();
-            UseDecimal ();
+            // Trigonometry ();
+            //UseDecimal ();
             //BoolDemo ();
             //DisplayOptions ();
             //StrDemo ();
-            //verbatim();
+            verbatim();
         }
 
         static void FindRadius () {
@@ -64,18 +62,6 @@ namespace DataTypes
 
         static void DisplayOptions () {
             int i;
-            int d1,d2;
-            d1=28;d2=29;
-            Console.WriteLine("February has {0,10} or {1,5}",d1,d2);
-            //
-            //
-            Console.WriteLine("Here is 10/3: {0:#.##}", 10.0/3.0);
-            Console.WriteLine("{0:###,###.##}", 123456.56);
-            decimal balance = 12323.09m;
-            Console.WriteLine("Current balance is {0:C}", balance);
-
-            //
-
             Console.WriteLine ("Value\tSquared\tCubed");
             for (i = 1; i < 10; i++)
                 Console.WriteLine ("{0}\t{1}\t{2}", i, i * i, i * i * i);
@@ -106,5 +92,6 @@ namespace DataTypes
                         ");
             Console.WriteLine (@"Programmers say, ""I like C#.""");
         }
+
     }
 }

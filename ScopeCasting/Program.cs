@@ -7,6 +7,7 @@ namespace ScopeCasting
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            CastDemo();
         }
         static void ScopeDemo () {
 
@@ -51,7 +52,7 @@ namespace ScopeCasting
               for (count = 0; count < 10; count = count + 1) {
                   Console.WriteLine ("This is count: " + count);
 
-                  int count; // illegal!!! 
+                 // int count; // illegal!!! 
                   for (count = 0; count < 2; count++)
                       Console.WriteLine ("This program is in error!");
               } 
@@ -67,13 +68,17 @@ namespace ScopeCasting
         static void BytetoInt()
         {
             byte b=20;
-            int i;
+            int i,j;
+            long l;
+            j=100;
+            i=100;
             i=b;
+            l=j;
             Console.WriteLine(i);
 
         }
-        class CastDemo {    
-  static void Main() {    
+         
+  static void CastDemo() {    
     double x, y; 
     byte b; 
     int i; 
@@ -130,11 +135,12 @@ namespace ScopeCasting
     Console.WriteLine(); 
  
     // Cast an int into a char. 
-    b = 88; // ASCII code for X 
+    b = 120; // ASCII code for X 
     ch = (char) b; 
     Console.WriteLine("ch after assigning 88: " + ch);  
-  }    
+      
 }
+
 
     }
 }

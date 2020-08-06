@@ -8,11 +8,11 @@ namespace DataTypes
             //Console.WriteLine ("Hello World!");
             // FindRadius ();
              //Trigonometry ();
-            UseDecimal ();
+           // UseDecimal ();
             //BoolDemo ();
-            //DisplayOptions ();
+            //DisplayOptions();
             //StrDemo ();
-            //verbatim();
+            verbatim();
         }
 
         static void FindRadius () {
@@ -66,6 +66,15 @@ namespace DataTypes
             int i;
             int d1,d2;
             d1=28;d2=29;
+            long l;
+            l=333344899999999;
+            //
+            Console.WriteLine("10.0/3.0 is" + 10.0/3.0);
+            //
+            Console.WriteLine("{1}/3.0 is {0}" , (10.0/3.0),10);
+
+            Console.WriteLine("Here is 10/3: {0:#.##}", 10.0/3.0);
+//   
             Console.WriteLine("February has {0,10} or {1,5}",d1,d2);
             //
             //

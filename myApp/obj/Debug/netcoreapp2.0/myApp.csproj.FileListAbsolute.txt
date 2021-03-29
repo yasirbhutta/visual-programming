@@ -30,3 +30,5 @@ D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.AssemblyInfoInputs
 D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.AssemblyInfo.cs
 D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.dll
 D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.pdb
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.csproj.CoreCompileInputs.cache
+D:\git\visual-programming\myApp\obj\Debug\netcoreapp2.0\myApp.genruntimeconfig.cache

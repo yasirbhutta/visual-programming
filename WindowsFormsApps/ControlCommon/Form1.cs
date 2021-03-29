@@ -24,7 +24,7 @@ namespace ControlCommon
 
 
 
-        private void changeFormColor(object sender, KeyEventArgs e)
+        private void changeFormColor()
         {
             if (textBox1.Focused)
                 this.BackColor = Color.Aqua;
@@ -32,9 +32,29 @@ namespace ControlCommon
                 this.BackColor = Color.Beige;
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            TextBox myTxt = new TextBox();
+            myTxt.Location = new Point(50, 50);
+            this.Controls.Add(myTxt);
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+       
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            changeFormColor();
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            changeFormColor();
         }
     }
 }

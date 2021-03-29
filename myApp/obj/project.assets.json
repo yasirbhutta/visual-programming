@@ -669,11 +669,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "d:\\git\\visual-programming\\myApp\\myApp.csproj",
+      "projectUniqueName": "D:\\git\\visual-programming\\myApp\\myApp.csproj",
       "projectName": "myApp",
-      "projectPath": "d:\\git\\visual-programming\\myApp\\myApp.csproj",
+      "projectPath": "D:\\git\\visual-programming\\myApp\\myApp.csproj",
       "packagesPath": "C:\\Users\\yasir\\.nuget\\packages\\",
-      "outputPath": "d:\\git\\visual-programming\\myApp\\obj\\",
+      "outputPath": "D:\\git\\visual-programming\\myApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\yasir\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -688,6 +688,7 @@
       },
       "frameworks": {
         "netcoreapp2.0": {
+          "targetAlias": "netcoreapp2.0",
           "projectReferences": {}
         }
       },
@@ -699,6 +700,7 @@
     },
     "frameworks": {
       "netcoreapp2.0": {
+        "targetAlias": "netcoreapp2.0",
         "dependencies": {
           "Microsoft.NETCore.App": {
             "suppressParent": "All",
@@ -717,7 +719,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

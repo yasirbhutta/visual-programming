@@ -14,12 +14,12 @@ namespace collections
 
         static void Main(string[] args)
         {
-            //EnumDemo();
+            EnumDemo();
             //ArrayDemo();
             //ListDemo1 ();
             //ListDemo2();
             //ListDemo3();
-            ListDemo4();
+           //ListDemo4();
             Console.ReadKey(true);
         }
 
@@ -111,7 +111,7 @@ namespace collections
             //
             Day d;
             
-            d = Day.Wed;
+            d = Day.Sun;
             switch (d)
             {
                 case Day.Sun:

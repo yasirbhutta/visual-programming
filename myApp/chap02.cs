@@ -4,14 +4,14 @@ namespace myApp {
     public class chap02 {
         public chap02 () { }
         public void example1 () {
-            Console.WriteLine ("A simple C# program.");
-
+            //Console.WriteLine ("A simple C# program.");
+            example2();
         }
         public void example2 () {
 
-/* 
+ 
              System.Console.WriteLine("A simple C# program."); 
-*/
+
         }
         //
         // This program demonstrates variables.  

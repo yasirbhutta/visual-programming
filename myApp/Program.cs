@@ -9,9 +9,10 @@ namespace myApp
             
          // Console.WriteLine("Hello world");
             
-         //   chap02 ch = new chap02();
-        //    ch.IdTest();
-          ShowSum();  
+        chap02 ch = new chap02();
+        ch.IdTest();
+        //print();
+        //  ShowSum();  
             
         }
 

@@ -12,7 +12,7 @@ namespace myApp
         chap02 ch = new chap02();
         ch.IdTest();
         //print();
-        //  ShowSum();  
+        //ShowSum();  
             
         }
 

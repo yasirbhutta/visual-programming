@@ -8,11 +8,8 @@ namespace myApp {
         }
         public void example2 () {
 
- 
              System.Console.WriteLine("A simple C# program."); 
-
-
-        }
+       }
         //
         // This program demonstrates variables.  
         //
@@ -108,11 +105,11 @@ namespace myApp {
 
             // The target of this if is a block. 
             if (i != 0) {
-                //int k = 5;
+                int k = 5;
                 Console.WriteLine ("i does not equal zero");
                 d = j / i;
                 Console.WriteLine ("j / i is " + d);
-                //Console.WriteLine("K = " + k);
+                Console.WriteLine("K = " + k);
             }
             // error 'k' does not exist in current  
             // Console.WriteLine("k =" + k); 
@@ -143,7 +140,9 @@ namespace myApp {
             
             int a;
             string name;
+            
             Console.Write("Enter your name = ");
+
             name = Console.ReadLine();
             Console.WriteLine("name = " + name);
             //
@@ -158,7 +157,7 @@ namespace myApp {
         // Demonstrate an @ identifier. 
         //
         public void IdTest () {
-                int @if,@for; // use if as an identifier 
+                int @if, @for; // use if as an identifier 
                 @for = 50;
                 for (@if = 0; @if < 10; @if++) 
                 Console.WriteLine (" @if is " + @if); 

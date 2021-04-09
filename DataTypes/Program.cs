@@ -11,10 +11,10 @@ namespace DataTypes
             //Trigonometry ();
             //UseDecimal ();
             //BoolDemo();
-            //DisplayOptions();
+            DisplayOptions();
             //StrDemo ();
             // verbatim();
-            StrIntp();
+            //StrIntp();
         }
 
         static void FindRadius()

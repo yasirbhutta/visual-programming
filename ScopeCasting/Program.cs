@@ -7,7 +7,8 @@ namespace ScopeCasting
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            CastDemo();
+            //CastDemo();
+            ScopeDemo();
         }
         static void ScopeDemo () {
 

@@ -7,12 +7,14 @@ namespace ScopeCasting
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            //CastDemo();
-            ScopeDemo();
+            CastDemo();
+            //ScopeDemo();
+            //VarInitDemo();
+            LtoD();
         }
         static void ScopeDemo () {
 
-            int x; // known to all code within Main() 
+            int x; // known to all code within ScopeDemo() 
 
             x = 10;
             if (x == 10) { // start new scope
@@ -53,7 +55,7 @@ namespace ScopeCasting
               for (count = 0; count < 10; count = count + 1) {
                   Console.WriteLine ("This is count: " + count);
 
-                 // int count; // illegal!!! 
+                  //int count; // illegal!!! 
                   for (count = 0; count < 2; count++)
                       Console.WriteLine ("This program is in error!");
               } 
@@ -98,7 +100,7 @@ namespace ScopeCasting
      
     // Cast an int into a byte, no data lost. 
     i = 255; 
-    b = (byte) i;  
+    b =  (byte)i;  
     Console.WriteLine("b after assigning 255: " + b + 
                       " -- no data lost."); 
  
@@ -136,7 +138,7 @@ namespace ScopeCasting
     Console.WriteLine(); 
  
     // Cast an int into a char. 
-    b = 120; // ASCII code for X 
+    b = 65; // ASCII code for X 
     ch = (char) b; 
     Console.WriteLine("ch after assigning 88: " + ch);  
       

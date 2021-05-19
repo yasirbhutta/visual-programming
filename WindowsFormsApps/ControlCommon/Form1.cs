@@ -36,8 +36,22 @@ namespace ControlCommon
         private void button3_Click(object sender, EventArgs e)
         {
             TextBox myTxt = new TextBox();
+
             myTxt.Location = new Point(50, 50);
+
+            myTxt.Text = "Enter your name";
+
             this.Controls.Add(myTxt);
+
+            // button
+
+            Button mybtn = new Button();
+
+            mybtn.Location = new Point(50, 100);
+
+            mybtn.Text = "Dynamic button";
+
+            this.Controls.Add(mybtn);
         }
 
         private void button4_Click(object sender, EventArgs e)
@@ -55,6 +69,31 @@ namespace ControlCommon
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
             changeFormColor();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            button7.Hide();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            button7.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click_1(object sender, EventArgs e)
+        {
+            textBox1.Select();
         }
     }
 }

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ControlCommon
+namespace FormPropertiesMethodsE
 {
     public partial class Form2 : Form
     {
@@ -17,9 +17,9 @@ namespace ControlCommon
             InitializeComponent();
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
     }
 }

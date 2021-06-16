@@ -36,8 +36,8 @@ namespace FormPropertiesMethodsE
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.BackColor = Color.Aqua;
-            this.Text = "Form load event ........";
+            this.BackColor = Color.Beige;
+            this.Text = "Form load event handler ........";
         }
 
         private void button1_Click_1(object sender, EventArgs e)

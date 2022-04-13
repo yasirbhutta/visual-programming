@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using SampleNamepace;
 Console.WriteLine("Hello, World!");
-SampleNamepace.SampleClass obj1 = new SampleNamepace.SampleClass();
+SampleClass obj1 = new SampleClass();
 obj1.example1();
+obj2.example2();

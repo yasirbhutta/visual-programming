@@ -2,7 +2,6 @@ using System;
 
 namespace SampleNamepace {
     public class MyClass {
-        public myClass () { }
         
         //
         // This program demonstrates variables.  

@@ -41,5 +41,35 @@ namespace Controls_Part1
             PictureBoxTestForm frm = new PictureBoxTestForm();
             frm.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            TooltipTestForm frm = new TooltipTestForm();
+            frm.ShowDialog();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            NumericUpDownTest frm = new NumericUpDownTest();
+            frm.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            PainterForm frm = new PainterForm();
+            frm.Show();
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MouseEnterLeave frm = new MouseEnterLeave();
+            frm.Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            KeyDemo frm = new KeyDemo();
+            frm.Show();
+        }
     }
 }

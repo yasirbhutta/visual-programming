@@ -58,11 +58,35 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KeyDemo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyDemo.Designer.cs">
+      <DependentUpon>KeyDemo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MouseEnterLeave.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MouseEnterLeave.Designer.cs">
+      <DependentUpon>MouseEnterLeave.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericUpDownTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NumericUpDownTest.Designer.cs">
+      <DependentUpon>NumericUpDownTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="GroupBoxPanelExampleForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GroupBoxPanelExampleForm.Designer.cs">
       <DependentUpon>GroupBoxPanelExampleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PainterForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PainterForm.Designer.cs">
+      <DependentUpon>PainterForm.cs</DependentUpon>
     </Compile>
     <Compile Include="PictureBoxTestForm.cs">
       <SubType>Form</SubType>
@@ -78,6 +102,12 @@
     <Compile Include="RadioButtonsTestForm.Designer.cs">
       <DependentUpon>RadioButtonsTestForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="TooltipTestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TooltipTestForm.Designer.cs">
+      <DependentUpon>TooltipTestForm.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="CheckBoxTestForm.resx">
       <DependentUpon>CheckBoxTestForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -86,6 +116,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GroupBoxPanelExampleForm.resx">
       <DependentUpon>GroupBoxPanelExampleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyDemo.resx">
+      <DependentUpon>KeyDemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MouseEnterLeave.resx">
+      <DependentUpon>MouseEnterLeave.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericUpDownTest.resx">
+      <DependentUpon>NumericUpDownTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PainterForm.resx">
+      <DependentUpon>PainterForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PictureBoxTestForm.resx">
       <DependentUpon>PictureBoxTestForm.cs</DependentUpon>
@@ -102,6 +144,9 @@
     </Compile>
     <EmbeddedResource Include="RadioButtonsTestForm.resx">
       <DependentUpon>RadioButtonsTestForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TooltipTestForm.resx">
+      <DependentUpon>TooltipTestForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

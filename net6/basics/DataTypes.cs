@@ -1,11 +1,10 @@
 using System;
-
 namespace CSharpBasics
 {
     class DataTypes
     {
       
-        static void FindRadius()
+      public static void FindRadius()
         {
             double r;
             Double area;
@@ -16,7 +15,7 @@ namespace CSharpBasics
 
         //
         // Demonstrate Math.Sin(), Math.Cos(), and Math.Tan().
-        static void Trigonometry()
+        public static void Trigonometry()
         {
             Double theta; // angle in radians
 
@@ -35,7 +34,7 @@ namespace CSharpBasics
                 Console.WriteLine();
             }
         }
-        static void UseDecimal()
+        public static void UseDecimal()
         {
             decimal price;
             decimal discount;
@@ -47,7 +46,7 @@ namespace CSharpBasics
             discounted_price = price - (price * discount);
             Console.WriteLine("Discounted price: $" + discounted_price);
         }
-        static void BoolDemo()
+        public static void BoolDemo()
         {
             bool b;
             b = false;
@@ -62,7 +61,7 @@ namespace CSharpBasics
             Console.WriteLine("10 > 9 is " + (10 > 9));
         }
 
-        static void DisplayOptions()
+        public static void DisplayOptions()
         {
             int i;
             int d1, d2;
@@ -96,7 +95,7 @@ namespace CSharpBasics
         //
         // Demonstrate escape sequences in strings.
         //
-        static void StrDemo()
+        public static void StrDemo()
         {
 
             //  \n escape sequence is used to generate a new line.
@@ -107,7 +106,7 @@ namespace CSharpBasics
             Console.WriteLine("\"Why?\", he asked.");
         }
 
-        static void verbatim()
+        public static void verbatim()
         {
             Console.WriteLine(@"This is a verbatim
                                 string literal
@@ -119,7 +118,7 @@ namespace CSharpBasics
                         ");
             Console.WriteLine(@"Programmers say, ""I like C#.""");
         }
-        static void StrIntp()
+        public static void StrIntp()
         {
             string name = "Mark";
             var date = DateTime.Now;

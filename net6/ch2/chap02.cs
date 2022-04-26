@@ -1,7 +1,6 @@
 using System;
-
 namespace SampleNamepace {
-    public class MyClass {
+    class MyClass {
         
         //
         // This program demonstrates variables.  
@@ -10,13 +9,9 @@ namespace SampleNamepace {
 
             int x; // this declares a variable  
             int y; // this declares another variable  
-
             x = 100; // this assigns 100 to x 
-
             Console.WriteLine ("x contains " + x);
-
             y = x / 2;
-
             Console.Write ("y contains x / 2: ");
             Console.WriteLine (y);
 
@@ -40,25 +35,17 @@ namespace SampleNamepace {
         //
         public void example5 () {
             int a, b, c;
-
             a = 2;
             b = 3;
-
             if (a < b) Console.WriteLine ("a is less than b");
-
             // This won't display anything. 
             if (a == b) Console.WriteLine ("you won't see this");
-
             Console.WriteLine ();
-
             c = a - b; // c contains -1 
-
             Console.WriteLine ("c contains -1");
             if (c >= 0) Console.WriteLine ("c is non-negative");
             if (c < 0) Console.WriteLine ("c is negative");
-
             Console.WriteLine ();
-
             c = b - a; // c now contains 1 
             Console.WriteLine ("c contains 1");
             if (c >= 0) Console.WriteLine ("c is non-negative");

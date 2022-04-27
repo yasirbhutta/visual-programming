@@ -79,7 +79,6 @@ namespace CSharpBasics
             //
             //
             Console.WriteLine("Here is 10/3: {0:#.##}", 10.0 / 3.0);
-            Console.WriteLine("{0:###,###.##}", 123456.56);
             //
             decimal balance = 12323.09m;
             Console.WriteLine("Current balance is {0:C}", balance);
@@ -90,7 +89,6 @@ namespace CSharpBasics
             for (i = 1; i < 10; i++)
                 Console.WriteLine("{0}\t{1}\t{2}", i, i * i, i * i * i);
 
-            Console.WriteLine("Here is 10/3: {0:#.##}", 10.0 / 3.0);
         }
         //
         // Demonstrate escape sequences in strings.
@@ -120,7 +118,7 @@ namespace CSharpBasics
         }
         public static void StrIntp()
         {
-            string name = "Mark";
+            string name = "Muhammad Ahmad";
             var date = DateTime.Now;
 
             // Composite formatting:

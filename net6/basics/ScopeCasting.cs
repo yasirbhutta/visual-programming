@@ -46,10 +46,10 @@ namespace CSharpBasics
 
               for (count = 0; count < 10; count = count + 1) {
                   Console.WriteLine ("This is count: " + count);
-
+                  Thread.Sleep(500);
                   //int count; // illegal!!! 
                   for (count = 0; count < 2; count++)
-                      Console.WriteLine ("This program is in error!");
+                      Console.WriteLine ($"This program is in error! - {count}");
               } 
        }
         // Demonstrate implicit conversion from long to double.
@@ -86,7 +86,7 @@ namespace CSharpBasics
  
     // Cast double to int, fractional component lost. 
     i = (int) (x / y);  
-    Console.WriteLine("Integer outcome of x / y: " + i); 
+    Console.WriteLine("Integer outcome of x / y =  " + i); 
     Console.WriteLine(); 
      
     // Cast an int into a byte, no data lost. 

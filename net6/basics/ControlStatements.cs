@@ -6,7 +6,7 @@ namespace CSharpBasics
         
         //listing 1
         // Determine if a value is positive or negative. 
-        static void PosNeg()
+     public static void PosNeg()
         {
             int i;
 
@@ -22,7 +22,7 @@ namespace CSharpBasics
         // listing 2
         // Determine if a value is positive, negative, or zero. 
 
-        static void PosNegZero()
+       public static void PosNegZero()
         {
             int i;
 
@@ -73,7 +73,7 @@ namespace CSharpBasics
         //listing 5
         // Use a char to control the switch. 
 
-        static void SwitchDemo2()
+        public static void SwitchDemo2()
         {
             char ch;
 
@@ -99,7 +99,7 @@ namespace CSharpBasics
         }
 
 
-        static void EmptyCasesCanFall()
+      public  static void EmptyCasesCanFall()
         {
             int i;
 
@@ -122,7 +122,7 @@ namespace CSharpBasics
         // listing 9
         // Use commas in a for statement. 
 
-        static void Comma()
+        public static void Comma()
         {
             int i, j;
 
@@ -130,7 +130,7 @@ namespace CSharpBasics
                 Console.WriteLine("i and j: " + i + " " + j);
 
         }
-        static void InfFor()
+       public static void InfFor()
         {
             int i = 0;
             for (; ; ) // intentionally infinite loop
@@ -147,7 +147,7 @@ namespace CSharpBasics
         // Compute the order of magnitude of an integer 
 
 
-        static void WhileDemo()
+        public static void WhileDemo()
         {
             int num;
             int mag;
@@ -166,7 +166,7 @@ namespace CSharpBasics
 
             Console.WriteLine("Magnitude: " + mag);
         }
-        static void GotoDemo()
+       public static void GotoDemo()
         {
             int x;
             x = 1;

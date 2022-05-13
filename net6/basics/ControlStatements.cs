@@ -3,10 +3,9 @@ namespace CSharpBasics
 {
     class ControlStatements
     {
-        
         //listing 1
         // Determine if a value is positive or negative. 
-     public static void PosNeg()
+        public static void PosNeg()
         {
             int i;
 
@@ -22,7 +21,7 @@ namespace CSharpBasics
         // listing 2
         // Determine if a value is positive, negative, or zero. 
 
-       public static void PosNegZero()
+        public static void PosNegZero()
         {
             int i;
 
@@ -40,7 +39,7 @@ namespace CSharpBasics
         //       
         //listing 4
         // Demonstrate the switch. 
-        static void SwitchDemo()
+        public static void SwitchDemo()
         {
             int i;
 
@@ -68,15 +67,14 @@ namespace CSharpBasics
                         break;
                 }
         }
-
-
         //listing 5
         // Use a char to control the switch. 
 
         public static void SwitchDemo2()
         {
-            char ch;
 
+            char ch;
+           
             for (ch = 'A'; ch <= 'E'; ch++)
                 switch (ch)
                 {
@@ -97,9 +95,7 @@ namespace CSharpBasics
                         break;
                 }
         }
-
-
-      public  static void EmptyCasesCanFall()
+        public static void EmptyCasesCanFall()
         {
             int i;
 
@@ -121,16 +117,14 @@ namespace CSharpBasics
 
         // listing 9
         // Use commas in a for statement. 
-
         public static void Comma()
         {
             int i, j;
-
             for (i = 0, j = 10; i < j; i++, j--)
                 Console.WriteLine("i and j: " + i + " " + j);
 
         }
-       public static void InfFor()
+        public static void InfFor()
         {
             int i = 0;
             for (; ; ) // intentionally infinite loop
@@ -166,15 +160,15 @@ namespace CSharpBasics
 
             Console.WriteLine("Magnitude: " + mag);
         }
-       public static void GotoDemo()
+        public static void GotoDemo()
         {
             int x;
             x = 1;
-            // label for goto
+        // label for goto
         loop1:
             x++;
             if (x < 100) goto loop1;
-            Console.WriteLine ("x = {0}",x);
+            Console.WriteLine("x = {0}", x);
         }
 
     }

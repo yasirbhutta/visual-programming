@@ -64,10 +64,12 @@ namespace ControlCommon
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
             changeFormColor();
+            if (textBox1.Text == "hide")
+                btnShow.Enabled = false;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
-        {
+       {
             changeFormColor();
         }
 
@@ -94,6 +96,11 @@ namespace ControlCommon
         private void button4_Click_1(object sender, EventArgs e)
         {
             textBox1.Select();
+        }
+
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            button5.Visible = true;
         }
     }
 }

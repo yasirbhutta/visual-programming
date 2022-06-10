@@ -114,9 +114,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="img\TheresaKnott-castle-800px.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
       <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
@@ -136,6 +133,13 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\img7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="img\green-park-view.jpg" />
+    <Content Include="img\img10.jpg" />
+    <None Include="Resources\sunny-defocused-green-nature-background-abstract-bokeh-effect-es-element-your-design.jpg" />
+    <None Include="Resources\parks-mountains-reflection-mountain-decoration-garden.jpg" />
+    <None Include="Resources\Image1.bmp" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

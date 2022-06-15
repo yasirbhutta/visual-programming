@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormPropertiesMethodsE", "F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MouseEvents", "MouseEvents\MouseEvents.csproj", "{34A9D3D5-EC45-491D-AC21-EFC9E4C96916}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericUpDown", "NumericUpDown\NumericUpDown.csproj", "{74F8D977-5A9F-4F79-A69A-AF45404DF49B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keyboard-events", "keyboard-events\keyboard-events.csproj", "{851E7B82-5136-4E4C-B824-484BD4A82052}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{34A9D3D5-EC45-491D-AC21-EFC9E4C96916}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34A9D3D5-EC45-491D-AC21-EFC9E4C96916}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34A9D3D5-EC45-491D-AC21-EFC9E4C96916}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74F8D977-5A9F-4F79-A69A-AF45404DF49B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74F8D977-5A9F-4F79-A69A-AF45404DF49B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74F8D977-5A9F-4F79-A69A-AF45404DF49B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74F8D977-5A9F-4F79-A69A-AF45404DF49B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{851E7B82-5136-4E4C-B824-484BD4A82052}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{851E7B82-5136-4E4C-B824-484BD4A82052}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{851E7B82-5136-4E4C-B824-484BD4A82052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{851E7B82-5136-4E4C-B824-484BD4A82052}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

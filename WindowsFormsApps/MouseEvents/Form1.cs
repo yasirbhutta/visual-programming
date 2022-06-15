@@ -37,8 +37,13 @@ namespace MouseEvents
             if (shouldPaint)
                 using (Graphics graphics = CreateGraphics())
                 {
-                    graphics.FillEllipse(new SolidBrush(Color.BlueViolet), e.X, e.Y, 4, 4);
+                    graphics.FillEllipse(new SolidBrush(Color.Green), e.X, e.Y,(float)numericUpDown1.Value,(float)numericUpDown1.Value);
                 }
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
 
         }
     }
